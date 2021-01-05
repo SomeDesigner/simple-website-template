@@ -1,0 +1,23 @@
+.toggle {
+    position: relative;
+    font-family: 'FontAwesome';
+    font-size: 2em;
+    cursor: pointer;
+    display: inline;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.toggle:before,
+.toggle.active:before{
+    font-size: 1em;
+}
+
+.toggle:before{
+    content: "\f0c9";
+}
+
+.toggle.active:before {
+    content: "\f00d"
+}

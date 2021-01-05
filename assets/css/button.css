@@ -1,0 +1,38 @@
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    transition: .2s;
+}
+
+/* Sizes */
+.button.large {
+    font-size: 18px;
+    min-width: 60px;
+    padding: 0 30px;
+    line-height: 60px;
+}
+
+/* Colors */
+.button.flat {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Effects */
+.button:hover {
+    letter-spacing: 6px;
+}
+
+/* Media queries */
+@media(max-width: 481px) {
+    .button {
+        text-align: center;
+    }
+    .button.large {
+        width: 100%;
+    }
+}
